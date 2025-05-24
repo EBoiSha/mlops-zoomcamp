@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-Experiment%20Tracking/mlruns/675649518559852273/f7592607569540098c02b5b8d63b55d0/artifacts
+end_time: 1748109533939
+entry_point_name: ''
+experiment_id: '675649518559852273'
+lifecycle_stage: active
+run_id: f7592607569540098c02b5b8d63b55d0
+run_name: serious-gull-975
+run_uuid: f7592607569540098c02b5b8d63b55d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748109518435
+status: 3
+tags: []
+user_id: codespace

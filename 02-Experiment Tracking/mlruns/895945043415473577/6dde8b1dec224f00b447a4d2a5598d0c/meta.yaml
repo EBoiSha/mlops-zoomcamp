@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-Experiment%20Tracking/mlruns/895945043415473577/6dde8b1dec224f00b447a4d2a5598d0c/artifacts
+end_time: 1748109985854
+entry_point_name: ''
+experiment_id: '895945043415473577'
+lifecycle_stage: active
+run_id: 6dde8b1dec224f00b447a4d2a5598d0c
+run_name: auspicious-horse-248
+run_uuid: 6dde8b1dec224f00b447a4d2a5598d0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748109970521
+status: 3
+tags: []
+user_id: codespace

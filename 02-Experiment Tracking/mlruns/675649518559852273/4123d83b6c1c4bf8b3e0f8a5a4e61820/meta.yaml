@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-Experiment%20Tracking/mlruns/675649518559852273/4123d83b6c1c4bf8b3e0f8a5a4e61820/artifacts
+end_time: 1748110308132
+entry_point_name: ''
+experiment_id: '675649518559852273'
+lifecycle_stage: active
+run_id: 4123d83b6c1c4bf8b3e0f8a5a4e61820
+run_name: able-bee-325
+run_uuid: 4123d83b6c1c4bf8b3e0f8a5a4e61820
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748110292922
+status: 3
+tags: []
+user_id: codespace
