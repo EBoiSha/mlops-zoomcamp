@@ -11,6 +11,8 @@ def load_pickle(filename: str):
     with open(filename, "rb") as f_in:
         return pickle.load(f_in)
 
+remote_server_uri = "http://127.0.0.1:5000"  # set to your server URI, e.g. http://127.0.0.1:8080
+mlflow.set_tracking_uri(remote_server_uri)
 
 @click.command()
 @click.option(
@@ -20,8 +22,7 @@ def load_pickle(filename: str):
 )
 def run_train(data_path: str):
     mlflow.autolog()
-
-    experiment_id = mlflow.set_experiment("HW1")
+    experiment_id = mlflow.set_experiment("HW2s")
     
     with mlflow.start_run():
         
