@@ -71,10 +71,11 @@ def run_register_model(data_path: str, top_n: int):
 
     # Select the model with the lowest test RMSE
     experiment = client.get_experiment_by_name(EXPERIMENT_NAME)
-    # best_run = client.search_runs( ...  )[0]
+    print(runs[0])
+    best_run = runs[0]
 
     # Register the best model
-    # mlflow.register_model( ... )
+    mlflow.register_model(f"runs://sklearn-best-model", "best-RF-Model")
 
 
 if __name__ == '__main__':
